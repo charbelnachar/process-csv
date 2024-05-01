@@ -1,0 +1,49 @@
+  "route_file": "03_EPG_EVENTOS.csv",
+  "delimiter": ",",
+  "data_valid": {
+    "ID": {
+      "none": true,
+      "unique": true,
+      "type": "int"
+    },
+    "NOMBRE": {
+      "none": true,
+      "type": "string"
+    },
+    "NOMBRE_PROGRAMA": {
+      "none": true,
+      "type": "string"
+    },
+    "DESCRIPCION": {
+      "none": true,
+      "type": "string"
+    },
+    "GENERO": {
+      "none": true,
+      "type": "string"
+    },
+    "EVENTTYPE": {
+      "none": true,
+      "type": "date"
+    },
+    "DURATION": {
+      "none": true
+    },
+    "CC_PATRON_SBR": {
+      "none": true,
+      "type": "string",
+      "country_code": true
+    },
+    "BEGINTIME": {
+      "none": true
+    },
+    "TV_RATING": {
+      "none": true
+    },
+    "LANGUAGE": {
+      "none": true,
+      "type": "string"
+    }
+  }
+}
+
